@@ -41,3 +41,4 @@ func printFigure(_ figure: chessFigure) {
 }
 
 takeArray(figureArray)
+print("Thanks for the game")
