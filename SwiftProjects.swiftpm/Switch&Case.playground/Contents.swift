@@ -8,5 +8,5 @@ print("Hi, \(name) \(middleName)")
 case (let surname, _, _) where surname.hasPrefix("Е") || surname.hasPrefix("З"):
 print("Hi, \(surname)")
 case let(surname, name, middleName):
-print("Hi, \(surname) \(name) \(middleName)")
+print("Good morning, \(surname) \(name) \(middleName)")
 }
